@@ -1,0 +1,442 @@
+.hero-quotes{
+    width: 550px;
+    height: 100px;
+    padding: ;
+    margin-top: 20px;
+    border-left: orangered 5px solid;
+    background-color: rgb(230, 230, 230);    
+    
+}
+
+.hero-quotes #hero{
+    margin-left: 10px;
+    padding-top: 12px;
+}
+
+.hero-quotes1{
+  
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 50px;
+    width: 550px;
+}
+.hero{
+    margin: 15px;
+    padding-top: 3%;
+    text-align: left;
+    line-height: 8px;
+    
+}
+.semaforo{
+display: flex;
+justify-content: space-between;
+margin-top: 80px;
+margin-left: 270px;
+width: 50px;
+height: 10px;
+
+}
+#circulo1{
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #0f0f0f; 
+}
+#circulo2{
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:rgb(179, 179, 179); 
+} 
+#circulo3{
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: rgb(179, 179, 179);
+} 
+
+/*INICIO SEISCELDAS*/
+.seisceldas{
+   height: 500px;   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-template: "ps js zepelin"
+                   "angular nudos manodolar";
+    column-gap: 50px;
+    padding-right: 20px;
+   
+}
+
+/* INICIO LAPTOP */
+.laptop{ /*primera caja con icono laptop*/
+    height: 50px;
+    width: 65px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px
+    
+}
+.container_laptop{
+    grid-area: ps; 
+    width:100%;
+    height: 270px;
+    text-align: center;
+}
+
+.container_laptop h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container_laptop p{
+    color:lightslategray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+}
+/* FIN LAPTOP */
+
+/* INICIO JS */
+.js{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px
+    
+}
+.container_js{
+    grid-area: js; 
+    width:100% ;
+    height: 270px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container_js h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container_js p{
+    color:lightslategray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+}
+/* FIN JS */
+
+/* INICIO ZEPELIN */
+    
+.zepelin{
+    height: 50px;
+    width: 65px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px
+    
+}
+.container_zepelin{
+    grid-area: zepelin; 
+    width:100% ;
+    height: 270px;
+    text-align: center;
+}
+.container_zepelin h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container_zepelin p{
+    color: lightslategray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+
+}
+/* fin zepelin */
+
+/* INICIO ANGULAR */
+.angular{
+    height: 50px;
+    width: 55px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px
+    
+}
+.container_angular{
+    grid-area: angular; 
+    width:100% ;
+    height: 270px;
+    text-align: center;    
+}
+.container_angular h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container_angular p{
+    color:lightslategray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+
+}
+
+/* fin angular */
+
+/* INICIO NUDOS */
+.nudos{
+    height: 50px;
+    width: 45px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px
+    
+}
+.container_nudos{
+    grid-area: nudos; 
+    width:100% ;
+    height: 270px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+.container_nudos h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container_nudos p{
+    color:lightslategray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+}
+/* fin nudos */
+
+/* INICIO MANO DOLAR */
+.manodolar{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px
+    
+}
+.container_manodolar{
+    grid-area: manodolar; 
+    width:100% ;
+    height: 270px;
+    text-align: center;    
+}
+.container_manodolar h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container_manodolar p{
+    color: lightslategray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+}
+/* fin mano dolar */
+
+/* inicio WHAT'S INCLUDE */
+
+.contenido{
+    height: 800px;
+}
+
+.titular{
+    text-align: center;
+   height: 150px;
+   padding-top: 50px;
+    
+
+}
+.ipadlista{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    
+
+}
+.fotografia{
+   width: 100%;
+   height: 750px;
+    
+}
+.fotografia #devices{
+   padding-left: 120px;
+    width: 550px;
+    height: 600px;
+}
+
+
+.lalista{
+    width: 100%;
+    height: 750px;
+
+}
+/* listas */
+ul{
+    list-style: none;
+    margin-left: 10px;
+}
+ul li{
+    padding: 13px ;
+    font-size: 20px;
+}
+/* boton I want */
+.iwant{
+    background-color:#e55713;
+    margin-left: 100px;
+    width: 166px;
+    height: 55px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: rgb(252, 252, 252);
+}
+
+/* Inicio GET A FREE PREVIEW */
+
+.alfombra{
+    height: 300px;
+    width: 760px;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 175px;
+}
+.alfombra #correo{
+    background-color: rgb(244, 244, 245);
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgb(244, 244, 245);  
+}
+.alfombra #envia{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color:#e55713;
+    border-color:#e55713;
+    border-radius: 5px;
+    height: 50px;
+    width: 90px;
+}
+/* FIN GET */
+
+
+
+/* COMENTARIOS COMILLAS*/
+
+/*SECCION ARRIBA*/
+
+/*JAMES DOE*/
+.arriba{  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1140px;
+}
+.comillas1{ /*fieldset*/
+    width: 380px;
+    height: 280px;
+    background-color:rgb(229, 233, 235); 
+    margin-right: 30px;  
+   
+}
+.comillas1 p{ 
+text-align: left;
+margin-left: 15px;
+font-size: 19px; 
+
+}
+.iconocomilla{
+    margin-left: 45%;
+}
+.remo{
+    display: flex;
+    flex-direction: row;    
+}
+.remo img{
+    margin-left: 15px;
+}
+.remo .hero1 P{
+    margin: 12px;
+    padding-top: 4%;
+    text-align: left;
+    line-height: 5px;
+    font-size: 16px; 
+}
+/*FIN JAMES DOE*/
+
+/*Inicio Jean Doe*/
+
+.iconocomilla{
+    margin-left: 45%;
+}
+.remo{
+    display: flex;
+    flex-direction: row;    
+}
+.remo img{
+    margin-left: 15px;
+}
+
+.iconocomilla{
+    margin-left: 45%;
+}
+.remo{
+    display: flex;
+    flex-direction: row;    
+}
+.remo img{
+    margin-left: 15px;
+}
+/* FIN SECCION ARRIBA*/
+
+
+/*comienza SECCION ABAJO*/
+
+.abajo{  /*seccion de abajo*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1140px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.comillas2{ /*fieldset*/
+    width: 400px;
+    height: 280px;
+    background-color:rgb(229, 233, 235);
+    margin-right: 16px;    
+   
+}
+
+.comillas2 p{ 
+    text-align: left;
+    margin-left: 15px;
+    font-size: 19px; 
+    
+}
+
+.iconocomilla{
+    margin-left: 45%;
+}
+.remo{
+    display: flex;
+    flex-direction: row;    
+}
+.remo img{
+    margin-left: 15px;
+}
